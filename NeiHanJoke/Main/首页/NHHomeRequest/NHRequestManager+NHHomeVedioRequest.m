@@ -12,7 +12,8 @@
 @implementation NHRequestManager (NHHomeVedioRequest)
 + (void)getNHHomeVedioDataResponseObject:(ResponseObjectBlock)responseObjectBlock{
     NSMutableString *vedioUrlStr = [[NSMutableString alloc] init];
-    [vedioUrlStr appendFormat:@"%@%@", kNHDomainNameProxy_Api, kNHHome_VideoProxyApi];
+    [vedioUrlStr appendFormat:@"%@%@%@", kNHDomainNameProxy_Api, kNHHome_VideoProxyApi, @"&iid=5993412956"];
+   
     kXXYLog(@"videoUrl------>:%@", vedioUrlStr);
     NHRequestManager  *requestManager = [NHRequestManager shareInstance];
     //[[NHRequestManager shareInstance] clearHttpHeader];

@@ -33,5 +33,22 @@
 #define kNHHome_GameProxyApi                (@"")
 
 
+/** 百思不得姐 **/
+#define kBSBDJDomainNameProxy_API           (@"http://api.budejie.com/api/api_open.php?")
+
+//全部
+#define kBSBDJAllProxy_API                  (@"a=list&c=data&type=1")
+//视频
+#define kBSBDJVideoProxy_API                (@"a=list&c=data&type=41")
+//声音
+#define kBSBDJViceProxy_API                 (@"a=list&c=data&type=31")
+//图片
+#define kBSBDJPictureProxy_API              (@"a=list&c=data&type=10")
+//段子
+#define kBSBDJDuanZiProxy_API               (@"a=list&c=data&type=29")
+
+
+
+
 
 #endif /* NHApi_h */

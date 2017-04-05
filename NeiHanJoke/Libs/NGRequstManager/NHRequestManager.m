@@ -44,12 +44,14 @@
 }
 
 - (void)GET:(NSString *)URLString parameters:(id)parameters success:(SuccessBlock)success failure:(FailureBlock)failure{
-    
+    [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
     [_afSessionManager GET:URLString parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
         if (success) {
             success(responseObject, nil);
         }
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
         if (failure) {
             failure(nil, error);
         }
@@ -57,11 +59,14 @@
 }
 
 - (void)POST:(NSString *)URLString parameters:(id)parameters success:(SuccessBlock)success failure:(FailureBlock)failure{
+    [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
     [_afSessionManager POST:URLString parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
         if (success) {
             success(responseObject, nil);
         }
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
         if (failure) {
             failure(nil, error);
         }

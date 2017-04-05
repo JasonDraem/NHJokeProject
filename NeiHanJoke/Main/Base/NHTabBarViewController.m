@@ -103,7 +103,7 @@
 }
 
 /**
- 去除tabbar分界线
+ 去除tabbar分界线 无效
  */
 - (void)removeLineOnTabbar{
     CGRect rect = CGRectMake(0, 0, kXXYScreenW, kXXYScreenH);
