@@ -262,6 +262,7 @@
 		961601B51DD078CF00D3A842 /* NHDiscoverHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHDiscoverHotViewController.m; sourceTree = "<group>"; };
 		961601B71DD078F800D3A842 /* NHDiscoverSubscribeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDiscoverSubscribeViewController.h; sourceTree = "<group>"; };
 		961601B81DD078F800D3A842 /* NHDiscoverSubscribeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHDiscoverSubscribeViewController.m; sourceTree = "<group>"; };
+		9617CF7F1E9485AB009223A8 /* NHNotificationContants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHNotificationContants.h; sourceTree = "<group>"; };
 		9657CF0D1DCC169E0018F65E /* publishicon_titlebar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "publishicon_titlebar@2x.png"; sourceTree = "<group>"; };
 		9657CF0E1DCC169E0018F65E /* publishicon_titlebar_night@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "publishicon_titlebar_night@2x.png"; sourceTree = "<group>"; };
 		9657CF0F1DCC169E0018F65E /* publishicon_titlebar_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "publishicon_titlebar_press@2x.png"; sourceTree = "<group>"; };
@@ -1071,6 +1072,7 @@
 				96D973A31DCB2E7E0022B9C9 /* NHApi.h */,
 				96D973A41DCB2E7E0022B9C9 /* NHConfig.h */,
 				96D973A51DCB2E7E0022B9C9 /* NHPrefixHeader.pch */,
+				9617CF7F1E9485AB009223A8 /* NHNotificationContants.h */,
 			);
 			path = Config;
 			sourceTree = "<group>";
