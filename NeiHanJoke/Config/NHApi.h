@@ -47,6 +47,8 @@
 //段子
 #define kBSBDJDuanZiProxy_API               (@"a=list&c=data&type=29")
 
+//电影简介
+#define kDOUBANMOVIE_API                    (@"http://api.douban.com/v2/movie/nowplaying?app_name=doubanmovie&client=e:iPhone4,1|y:iPhoneOS_6.1|s:mobile|f:doubanmovie_2|v:3.3.1|m:PP_market|udid:aa1b815b8a4d1e961347304e74b9f9593d95e1c5&alt=json&version=2&start=0&city=北京&apikey=0df993c66c0c636e29ecbb5344252a4a")
 
 
 

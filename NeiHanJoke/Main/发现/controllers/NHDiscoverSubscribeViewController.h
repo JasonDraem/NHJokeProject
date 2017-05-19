@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NHHomeBaseViewController.h"
 
-@interface NHDiscoverSubscribeViewController : UIViewController
+@interface NHDiscoverSubscribeViewController : NHHomeBaseViewController
 
 @end

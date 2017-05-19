@@ -34,6 +34,12 @@ typedef NS_ENUM(NSInteger, XXYGetDataType) {
     NSInteger _currentPage;
     BOOL _isLoading;
 }
+
+@property (nonatomic, strong) UITableView *baseTableView;
+
+@property (nonatomic, strong) NSMutableArray *baseDataSource;
+
+
 /**
  *  下拉刷新
  */

@@ -10,9 +10,10 @@
 
 @interface NHHomeBaseViewController ()
 
-//@property (nonatomic, strong) UITableView *tableView;
 
 @end
+
+static NSString *kBaseTableViewCellId = @"kBaseTableViewCellId";
 
 @implementation NHHomeBaseViewController
 
@@ -25,6 +26,25 @@
     _getDataType = XXYGetDataNormalRefresh;
     //
     _isLoading = NO;
+}
+
+- (NSMutableArray *)baseDataSource{
+    if (!_baseDataSource) {
+        _baseDataSource = [[NSMutableArray alloc] init];
+    }
+    return _baseDataSource;
+}
+
+- (UITableView *)baseTableView{
+    if (!_baseTableView) {
+        _baseTableView = [[UITableView alloc] init];
+        _baseTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+        [self.view addSubview:_baseTableView];
+        [_baseTableView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.edges.equalTo(self.view);
+        }];
+    }
+    return _baseTableView;
 }
 
 /**
@@ -57,6 +77,10 @@
     _getDataType = XXYGetDataFooterRefresh;
     [self getDataFromeRemoteService];
 }
+
+
+#pragma mark -  UITableViewDataSource, UITableViewDelegate
+
 
 
 - (void)didReceiveMemoryWarning {
