@@ -82,7 +82,10 @@ typedef NS_ENUM(NSUInteger, NHResponseSeializerType) {
  *  @param success    请求成功的回调
  *  @param failure    请求失败的回调
  */
-- (void)GET:(NSString *)URLString parameters:(id)parameters success:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void)GET:(NSString *)URLString
+ parameters:(id)parameters
+    success:(SuccessBlock)success
+    failure:(FailureBlock)failure;
 
 /**
  *  POST请求 By NSURLSession
@@ -92,7 +95,10 @@ typedef NS_ENUM(NSUInteger, NHResponseSeializerType) {
  *  @param success    请求成功的回调
  *  @param failure    请求失败的回调
  */
-- (void)POST:(NSString *)URLString parameters:(id)parameters success:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void)POST:(NSString *)URLString
+  parameters:(id)parameters
+     success:(SuccessBlock)success
+     failure:(FailureBlock)failure;
 
 /**
  *  POST请求 上传数据 By NSURLSession

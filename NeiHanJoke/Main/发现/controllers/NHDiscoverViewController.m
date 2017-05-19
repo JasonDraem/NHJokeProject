@@ -25,6 +25,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = kNHGeneralViewBgColor;
     self.nhDiscoverSegmentControl.multipleTouchEnabled = NO;
     [self addSubviewController];
 }
@@ -41,7 +42,7 @@
 }
 
 - (UIScrollView *)nhDiscoverScrollView{
-    if (_nhDiscoverScrollView) {
+    if (!_nhDiscoverScrollView) {
         _nhDiscoverScrollView = [NHUikitTool nhPublicScrollViewWithFrame:kXXYScreenBounds ContentSize:CGSizeMake(kXXYScreenW * 2, kXXYScreenH)];
         self.automaticallyAdjustsScrollViewInsets = NO;
         _nhDiscoverScrollView.delegate = self;

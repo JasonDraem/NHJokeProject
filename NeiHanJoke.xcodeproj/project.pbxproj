@@ -159,6 +159,13 @@
 		9657D01E1DCC3F240018F65E /* NHMessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9657D01D1DCC3F240018F65E /* NHMessagesViewController.m */; };
 		9657D0211DCC54270018F65E /* AppDelegate+Addiation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9657D0201DCC54270018F65E /* AppDelegate+Addiation.m */; };
 		967CB5A01E8FA26600A25726 /* NHRequestManager+HomeRequesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 967CB59F1E8FA26600A25726 /* NHRequestManager+HomeRequesManager.m */; };
+		96BF14EC1EC6963C00028655 /* call@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96BF14EA1EC6963C00028655 /* call@2x.png */; };
+		96BF14ED1EC6963C00028655 /* call@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96BF14EB1EC6963C00028655 /* call@3x.png */; };
+		96BF15111EC8AFB100028655 /* CallManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BF15071EC8AFB100028655 /* CallManager.m */; };
+		96BF15121EC8AFB100028655 /* CallManagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BF15091EC8AFB100028655 /* CallManagerView.m */; };
+		96BF15131EC8AFB100028655 /* FloatViewUitl.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BF150C1EC8AFB100028655 /* FloatViewUitl.m */; };
+		96BF15141EC8AFB100028655 /* NSObject+FloatNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BF150E1EC8AFB100028655 /* NSObject+FloatNSObject.m */; };
+		96BF15151EC8AFB100028655 /* UIView+FloatViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BF15101EC8AFB100028655 /* UIView+FloatViewFrame.m */; };
 		96CD83E11DCC5ECF00D94051 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CD83E01DCC5ECF00D94051 /* Images.xcassets */; };
 		96CD83E51DCC6A5700D94051 /* NHUikitTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CD83E41DCC6A5700D94051 /* NHUikitTool.m */; };
 		96CD83E81DCC7B2F00D94051 /* NHCustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CD83E71DCC7B2F00D94051 /* NHCustomNavigationController.m */; };
@@ -181,6 +188,10 @@
 		96E70F4C1E8F3D3A00AFD3B2 /* main@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96E70F4A1E8F3D3A00AFD3B2 /* main@3x.png */; };
 		96E70F511E8F471E00AFD3B2 /* NHMainTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E70F501E8F471E00AFD3B2 /* NHMainTabbar.m */; };
 		96E70F611E8F594400AFD3B2 /* main1.png in Resources */ = {isa = PBXBuildFile; fileRef = 96E70F601E8F594400AFD3B2 /* main1.png */; };
+		96FFE0131ECE91710040DE5F /* NHRequestManager+NHDiscoverRequestCatogry.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FFE0121ECE91710040DE5F /* NHRequestManager+NHDiscoverRequestCatogry.m */; };
+		96FFE0161ECE930D0040DE5F /* NHDouBanMovieShowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FFE0151ECE930D0040DE5F /* NHDouBanMovieShowModel.m */; };
+		96FFE01A1ECED3A60040DE5F /* NHDouBanImagesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FFE0181ECED3A60040DE5F /* NHDouBanImagesTableViewCell.m */; };
+		96FFE01B1ECED3A60040DE5F /* NHDouBanImagesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE0191ECED3A60040DE5F /* NHDouBanImagesTableViewCell.xib */; };
 		DEA4A756D7FFA574D50A8320 /* libPods-NeiHanJoke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E472513E5C9B03241B9DD9B3 /* libPods-NeiHanJoke.a */; };
 /* End PBXBuildFile section */
 
@@ -392,6 +403,19 @@
 		9657D0201DCC54270018F65E /* AppDelegate+Addiation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Addiation.m"; sourceTree = "<group>"; };
 		967CB59E1E8FA26600A25726 /* NHRequestManager+HomeRequesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NHRequestManager+HomeRequesManager.h"; sourceTree = "<group>"; };
 		967CB59F1E8FA26600A25726 /* NHRequestManager+HomeRequesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NHRequestManager+HomeRequesManager.m"; sourceTree = "<group>"; };
+		96BF14EA1EC6963C00028655 /* call@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "call@2x.png"; sourceTree = "<group>"; };
+		96BF14EB1EC6963C00028655 /* call@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "call@3x.png"; sourceTree = "<group>"; };
+		96BF15061EC8AFB100028655 /* CallManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallManager.h; sourceTree = "<group>"; };
+		96BF15071EC8AFB100028655 /* CallManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallManager.m; sourceTree = "<group>"; };
+		96BF15081EC8AFB100028655 /* CallManagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallManagerView.h; sourceTree = "<group>"; };
+		96BF15091EC8AFB100028655 /* CallManagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallManagerView.m; sourceTree = "<group>"; };
+		96BF150A1EC8AFB100028655 /* FloatUtilConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatUtilConfig.h; sourceTree = "<group>"; };
+		96BF150B1EC8AFB100028655 /* FloatViewUitl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatViewUitl.h; sourceTree = "<group>"; };
+		96BF150C1EC8AFB100028655 /* FloatViewUitl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatViewUitl.m; sourceTree = "<group>"; };
+		96BF150D1EC8AFB100028655 /* NSObject+FloatNSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FloatNSObject.h"; sourceTree = "<group>"; };
+		96BF150E1EC8AFB100028655 /* NSObject+FloatNSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FloatNSObject.m"; sourceTree = "<group>"; };
+		96BF150F1EC8AFB100028655 /* UIView+FloatViewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FloatViewFrame.h"; sourceTree = "<group>"; };
+		96BF15101EC8AFB100028655 /* UIView+FloatViewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FloatViewFrame.m"; sourceTree = "<group>"; };
 		96CD83E01DCC5ECF00D94051 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		96CD83E31DCC6A5700D94051 /* NHUikitTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHUikitTool.h; sourceTree = "<group>"; };
 		96CD83E41DCC6A5700D94051 /* NHUikitTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHUikitTool.m; sourceTree = "<group>"; };
@@ -436,6 +460,13 @@
 		96E70F4F1E8F471E00AFD3B2 /* NHMainTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHMainTabbar.h; sourceTree = "<group>"; };
 		96E70F501E8F471E00AFD3B2 /* NHMainTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHMainTabbar.m; sourceTree = "<group>"; };
 		96E70F601E8F594400AFD3B2 /* main1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main1.png; sourceTree = "<group>"; };
+		96FFE0111ECE91710040DE5F /* NHRequestManager+NHDiscoverRequestCatogry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NHRequestManager+NHDiscoverRequestCatogry.h"; sourceTree = "<group>"; };
+		96FFE0121ECE91710040DE5F /* NHRequestManager+NHDiscoverRequestCatogry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NHRequestManager+NHDiscoverRequestCatogry.m"; sourceTree = "<group>"; };
+		96FFE0141ECE930D0040DE5F /* NHDouBanMovieShowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDouBanMovieShowModel.h; sourceTree = "<group>"; };
+		96FFE0151ECE930D0040DE5F /* NHDouBanMovieShowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHDouBanMovieShowModel.m; sourceTree = "<group>"; };
+		96FFE0171ECED3A60040DE5F /* NHDouBanImagesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDouBanImagesTableViewCell.h; sourceTree = "<group>"; };
+		96FFE0181ECED3A60040DE5F /* NHDouBanImagesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHDouBanImagesTableViewCell.m; sourceTree = "<group>"; };
+		96FFE0191ECED3A60040DE5F /* NHDouBanImagesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NHDouBanImagesTableViewCell.xib; sourceTree = "<group>"; };
 		E472513E5C9B03241B9DD9B3 /* libPods-NeiHanJoke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NeiHanJoke.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -571,6 +602,7 @@
 		9657CF0B1DCC16530018F65E /* ImageSource */ = {
 			isa = PBXGroup;
 			children = (
+				96BF14E91EC6962600028655 /* call */,
 				9657CF0C1DCC169E0018F65E /* edite */,
 				9657CF111DCC169E0018F65E /* EmptyImages */,
 				9657CF161DCC169E0018F65E /* icons */,
@@ -777,6 +809,7 @@
 		9657CFFF1DCC3D290018F65E /* 发现 */ = {
 			isa = PBXGroup;
 			children = (
+				96FFE00D1ECE91140040DE5F /* NHDiscoverRequest */,
 				9657D0091DCC3E3A0018F65E /* controllers */,
 				9657D0061DCC3E3A0018F65E /* main */,
 				9657D0071DCC3E3A0018F65E /* model */,
@@ -874,6 +907,8 @@
 		9657D0071DCC3E3A0018F65E /* model */ = {
 			isa = PBXGroup;
 			children = (
+				96FFE0141ECE930D0040DE5F /* NHDouBanMovieShowModel.h */,
+				96FFE0151ECE930D0040DE5F /* NHDouBanMovieShowModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -881,6 +916,9 @@
 		9657D0081DCC3E3A0018F65E /* views */ = {
 			isa = PBXGroup;
 			children = (
+				96FFE0171ECED3A60040DE5F /* NHDouBanImagesTableViewCell.h */,
+				96FFE0181ECED3A60040DE5F /* NHDouBanImagesTableViewCell.m */,
+				96FFE0191ECED3A60040DE5F /* NHDouBanImagesTableViewCell.xib */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -956,6 +994,33 @@
 				9657D01D1DCC3F240018F65E /* NHMessagesViewController.m */,
 			);
 			path = controllers;
+			sourceTree = "<group>";
+		};
+		96BF14E91EC6962600028655 /* call */ = {
+			isa = PBXGroup;
+			children = (
+				96BF14EA1EC6963C00028655 /* call@2x.png */,
+				96BF14EB1EC6963C00028655 /* call@3x.png */,
+			);
+			path = call;
+			sourceTree = "<group>";
+		};
+		96BF14EE1EC6964F00028655 /* NHFloatView */ = {
+			isa = PBXGroup;
+			children = (
+				96BF15061EC8AFB100028655 /* CallManager.h */,
+				96BF15071EC8AFB100028655 /* CallManager.m */,
+				96BF15081EC8AFB100028655 /* CallManagerView.h */,
+				96BF15091EC8AFB100028655 /* CallManagerView.m */,
+				96BF150A1EC8AFB100028655 /* FloatUtilConfig.h */,
+				96BF150B1EC8AFB100028655 /* FloatViewUitl.h */,
+				96BF150C1EC8AFB100028655 /* FloatViewUitl.m */,
+				96BF150D1EC8AFB100028655 /* NSObject+FloatNSObject.h */,
+				96BF150E1EC8AFB100028655 /* NSObject+FloatNSObject.m */,
+				96BF150F1EC8AFB100028655 /* UIView+FloatViewFrame.h */,
+				96BF15101EC8AFB100028655 /* UIView+FloatViewFrame.m */,
+			);
+			path = NHFloatView;
 			sourceTree = "<group>";
 		};
 		96CD83E21DCC69E800D94051 /* Tools */ = {
@@ -1169,6 +1234,7 @@
 		96E70F4D1E8F46DB00AFD3B2 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				96BF14EE1EC6964F00028655 /* NHFloatView */,
 				96E70F4E1E8F46F700AFD3B2 /* Tools */,
 			);
 			path = Util;
@@ -1181,6 +1247,15 @@
 				96E70F501E8F471E00AFD3B2 /* NHMainTabbar.m */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		96FFE00D1ECE91140040DE5F /* NHDiscoverRequest */ = {
+			isa = PBXGroup;
+			children = (
+				96FFE0111ECE91710040DE5F /* NHRequestManager+NHDiscoverRequestCatogry.h */,
+				96FFE0121ECE91710040DE5F /* NHRequestManager+NHDiscoverRequestCatogry.m */,
+			);
+			path = NHDiscoverRequest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1296,8 +1371,10 @@
 			files = (
 				9657CF9B1DCC169E0018F65E /* Icon.png in Resources */,
 				9657CF851DCC169E0018F65E /* publishicon_titlebar_night@2x.png in Resources */,
+				96BF14ED1EC6963C00028655 /* call@3x.png in Resources */,
 				9657CFF41DCC169E0018F65E /* newstab_press@3x.png in Resources */,
 				96E70F4B1E8F3D3A00AFD3B2 /* main@2x.png in Resources */,
+				96BF14EC1EC6963C00028655 /* call@2x.png in Resources */,
 				9657CF891DCC169E0018F65E /* without-friend@3x.png in Resources */,
 				9657CFB01DCC169E0018F65E /* refresh_head_2_night@3x.png in Resources */,
 				961601981DD0584500D3A842 /* SCNavTabBar.bundle in Resources */,
@@ -1368,6 +1445,7 @@
 				9657CFC31DCC169E0018F65E /* refreshjoke_loading_13@2x.png in Resources */,
 				9657CFD11DCC169E0018F65E /* refreshjoke_loading_3@2x.png in Resources */,
 				9657CFBF1DCC169E0018F65E /* refreshjoke_loading_11@2x.png in Resources */,
+				96FFE01B1ECED3A60040DE5F /* NHDouBanImagesTableViewCell.xib in Resources */,
 				9657CFAD1DCC169E0018F65E /* refresh_head_2@2x.png in Resources */,
 				9657CFA11DCC169E0018F65E /* LaunchImage-700-Portrait@2x~ipad.png in Resources */,
 				9657CFB41DCC169E0018F65E /* refresh_head_3_night@3x.png in Resources */,
@@ -1468,7 +1546,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		8365B661925F5BE11342567E /* [CP] Embed Pods Frameworks */ = {
@@ -1493,6 +1571,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96BF15121EC8AFB100028655 /* CallManagerView.m in Sources */,
 				961601B91DD078F800D3A842 /* NHDiscoverSubscribeViewController.m in Sources */,
 				961601B61DD078CF00D3A842 /* NHDiscoverHotViewController.m in Sources */,
 				9616019E1DD058D900D3A842 /* NHHomeLiveVC.m in Sources */,
@@ -1502,20 +1581,25 @@
 				967CB5A01E8FA26600A25726 /* NHRequestManager+HomeRequesManager.m in Sources */,
 				9657D01E1DCC3F240018F65E /* NHMessagesViewController.m in Sources */,
 				961601AA1DD0592400D3A842 /* NHHomeDuanZiVC.m in Sources */,
+				96BF15151EC8AFB100028655 /* UIView+FloatViewFrame.m in Sources */,
 				96129E3D1DD1C16D000F25FC /* WMLightView.m in Sources */,
 				9616018B1DD02A9F00D3A842 /* NHFocusOnViewController.m in Sources */,
 				96129E2C1DD19BB1000F25FC /* NHRequestManager+NHHomeVedioRequest.m in Sources */,
 				9657CFFD1DCC3CC60018F65E /* NHBaseViewController.m in Sources */,
+				96BF15111EC8AFB100028655 /* CallManager.m in Sources */,
 				961601A11DD058F200D3A842 /* NHHomeTuiJianVC.m in Sources */,
 				961601A41DD0590200D3A842 /* NHHomeVideoVC.m in Sources */,
 				96129E2F1DD1A160000F25FC /* NHHomeVideoModel.m in Sources */,
 				961601851DD028FD00D3A842 /* NHHomeBaseViewController.m in Sources */,
+				96FFE0161ECE930D0040DE5F /* NHDouBanMovieShowModel.m in Sources */,
 				961601A71DD0591700D3A842 /* NHHomeImageVC.m in Sources */,
 				9616019B1DD0584500D3A842 /* SCPopView.m in Sources */,
 				96129E221DD1734F000F25FC /* NHRequestManager+NHHomeTuijianRequest.m in Sources */,
+				96FFE0131ECE91710040DE5F /* NHRequestManager+NHDiscoverRequestCatogry.m in Sources */,
 				9616017E1DD011E600D3A842 /* NHUserInfoViewController.m in Sources */,
 				96D973B81DCB2FE70022B9C9 /* AppDelegate+Service.m in Sources */,
 				9657D01B1DCC3F110018F65E /* NHFreshViewController.m in Sources */,
+				96BF15131EC8AFB100028655 /* FloatViewUitl.m in Sources */,
 				96E70F401E8F34E000AFD3B2 /* NHMainViewController.m in Sources */,
 				9657D0151DCC3EDA0018F65E /* NHHomeViewController.m in Sources */,
 				96D973AC1DCB2E950022B9C9 /* NHRequestManager.m in Sources */,
@@ -1533,10 +1617,12 @@
 				96E70F511E8F471E00AFD3B2 /* NHMainTabbar.m in Sources */,
 				961601991DD0584500D3A842 /* SCNavTabBarController.m in Sources */,
 				961601B31DD0595F00D3A842 /* NHHomeGameVC.m in Sources */,
+				96BF15141EC8AFB100028655 /* NSObject+FloatNSObject.m in Sources */,
 				961601AD1DD0593C00D3A842 /* NHHomeJingHuaVC.m in Sources */,
 				96129E3B1DD1C16D000F25FC /* FastForwardView.m in Sources */,
 				9616019A1DD0584500D3A842 /* SCNavTabBar.m in Sources */,
 				96CD83E81DCC7B2F00D94051 /* NHCustomNavigationController.m in Sources */,
+				96FFE01A1ECED3A60040DE5F /* NHDouBanImagesTableViewCell.m in Sources */,
 				96D973BF1DCB303E0022B9C9 /* NSString+Common.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
